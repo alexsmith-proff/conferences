@@ -1,14 +1,19 @@
-import React, { FC } from "react"
-import s from './main_layout.module.scss'
+import { FC } from "react"
+import InputFind from "../../ui_web_library/ui/input_find/input_find"
+import { VscSettings } from "react-icons/vsc";
 
-interface FindProps{
+import s from './find.module.scss'
+
+interface FindProps {
 }
 
-const Find: FC<FindProps> = ({  }) => {
+const Find: FC<FindProps> = ({ }) => {
     return (
-        <div>
-            <div className={s.btn}></div>
-            
+        <div className={s.find}>
+            <div><VscSettings size={30} className={s.findIco} /></div>
+            <div className={s.findInputWrap}>
+                <InputFind className={s.findInput} placeholder="Найти" btnFindSize={20} leftOffsetIco={7} />
+            </div>
         </div>
     )
 }

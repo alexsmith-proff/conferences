@@ -1,4 +1,26 @@
 .main{
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+.left{
+    width: 30%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contacts{
+    height: calc(100vh - 22px);
+}
+
+.info{
+    background-color: #fff;
 }
