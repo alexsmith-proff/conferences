@@ -1,4 +1,4 @@
-import { FC } from "react"
+import { FC, useState } from "react"
 
 import s from './conference_item.module.scss'
 import ConferenceItemIO from "../../conference_item_io/conference_item_io";
@@ -16,7 +16,7 @@ const ConferenceItem: FC<ConferenceItemProps> = ({ user }) => {
     
     return (
         <div className={s.item}>
-            <ConferenceItemIO width={400} height={300} name={user.name} clickMicrophone={handleClickMicrophone} />            
+            <ConferenceItemIO name={user.name} active={user.active} microphoneOn={user.microphoneOn} clickMicrophone={handleClickMicrophone} />            
         </div>
     )
 }

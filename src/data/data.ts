@@ -8,16 +8,19 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: true,
+                microphoneOn: true,
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: false,
+                microphoneOn: false,
             },
             {
-                name: 'Пользователь 3'
-            },
-            {
-                name: 'Пользователь 4'
+                name: 'Пользователь 3',
+                active: false,
+                microphoneOn: false,
             },
         ]
     },
@@ -30,13 +33,19 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: false,
+                microphoneOn: false,
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: false,
+                microphoneOn: false,
             },
             {
-                name: 'Пользователь 3'
+                name: 'Пользователь 3',
+                active: true,
+                microphoneOn: true,
             },
         ]
     },
@@ -49,10 +58,14 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: false,
+                microphoneOn: false,
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: false,
+                microphoneOn: false,
             },
         ]
     },
@@ -65,16 +78,19 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: false,
+                microphoneOn: false,
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: true,
+                microphoneOn: true,
             },
             {
-                name: 'Пользователь 3'
-            },
-            {
-                name: 'Пользователь 4'
+                name: 'Пользователь 3',
+                active: false,
+                microphoneOn: false,
             },
         ]
     },
@@ -87,10 +103,14 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: true,
+                microphoneOn: true,
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: false,
+                microphoneOn: false,
             }
         ]
     },
@@ -103,10 +123,19 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: true,
+                microphoneOn: true,
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: false,
+                microphoneOn: false,
+            },
+            {
+                name: 'Пользователь 3',
+                active: true,
+                microphoneOn: true,
             },
         ]
     },
@@ -119,17 +148,15 @@ export const contactsData = [
         active: false,
         users: [
             {
-                name: 'Пользователь 1'
+                name: 'Пользователь 1',
+                active: true,
+                microphoneOn: true,                
             },
             {
-                name: 'Пользователь 2'
+                name: 'Пользователь 2',
+                active: false,
+                microphoneOn: false, 
             },
-            {
-                name: 'Пользователь 3'
-            },
-            {
-                name: 'Пользователь 4'
-            }
         ]
     },
 
