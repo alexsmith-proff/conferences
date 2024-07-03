@@ -1,5 +1,5 @@
 {
-  "name": "conferences",
+  "name": "@alexsmith-proff/lib-storybook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
