@@ -1,4 +1,4 @@
-import { FC, useState } from "react"
+import { FC } from "react"
 
 import s from './contacts.module.scss'
 import ContactItem from "./contact_item/contact_item"

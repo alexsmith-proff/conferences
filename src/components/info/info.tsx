@@ -9,7 +9,6 @@ interface InfoProps {
 }
 
 const Info: FC<InfoProps> = ({ contactName, timePassed, users }) => {
-
     return (
         <div className={s.info}>
             <div className={s.ico}>

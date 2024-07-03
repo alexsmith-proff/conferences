@@ -13,7 +13,7 @@ interface ContactItemProps {
 
 const ContactItem: FC<ContactItemProps> = ({ id, contactName, lastMessage, time, active = false, click }) => {
     return (
-        <div className={s.item} style={{backgroundColor: active ? '#636DEE' : '#FFF'}} onClick={() => click(id)}>
+        <div className={active ? `${s.item} ${s.active}` : s.item} onClick={() => click(id)}>
             <div className={s.ico}>
                 {
                     active ? <img src="img/contactIcoActive.png" alt="contactIco" /> : <img src="img/contactIco.png" alt="contactIco" />
@@ -29,7 +29,7 @@ const ContactItem: FC<ContactItemProps> = ({ id, contactName, lastMessage, time,
                     </div>
                     <div
                         className={s.lastMessage}
-                        style={{ color: active ? '#FFF' : '#000' }}
+                        style={{ color: active ? '#d1d1d1' : '#c7c7c7' }}
                     >
                         {lastMessage}
                     </div>

@@ -1,0 +1,25 @@
+name: Conference
+on:
+  push:
+    paths: ["src/**"]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+        with:
+          persist-credentials: false
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1
+      - name: Install and Build 🔧
+        run:
+          npm run build
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          CLEAN: true
+          TARGET_FOLDER: docs
