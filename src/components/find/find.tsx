@@ -1,8 +1,8 @@
 import { FC } from "react"
-import InputFind from "../../ui_web_library/ui/input_find/input_find"
 import { VscSettings } from "react-icons/vsc";
 
 import s from './find.module.scss'
+import InputFind from "../input_find/input_find";
 
 interface FindProps {
 }

@@ -13,8 +13,7 @@ jobs:
       - name: Install deps and build (with cache)
         uses: bahmutov/npm-install@v1
       - name: Install and Build 🔧
-        run: |
-          git submodule update --init --recursive
+        run:
           npm run build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.4
