@@ -1,0 +1,7 @@
+.item{
+    border: 2px solid #000;
+    border-radius: 20px;
+    &.active{
+        border: 2px solid #636DEE;
+    }
+}
