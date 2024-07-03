@@ -1,5 +1,6 @@
 {
-  "name": "@alexsmith-proff/lib-storybook",
+  "homepage": "https://alexsmith-proff.github.io/conferences",
+  "name": "conferences",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.77.6"
   }
 }
